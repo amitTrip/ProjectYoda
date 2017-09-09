@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="159d27d2e9314b4faf12aac53e1c3809" Name="Diagram1" ZoomLevel="62">
+        <EntityTypeShape EntityType="yodaModel.CPEDetail" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="yodaModel.CPEReview" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="yodaModel.sysdiagram" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="yodaModel.TaxonomyL1" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="yodaModel.TaxonomyL2" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="yodaModel.TaxonomyL3" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="yodaModel.TaxonomyL4" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="yodaModel.database_firewall_rules" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="yodaModel.FK__CPEReview__CPEDe__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="yodaModel.FK__TaxonomyL__L1_Id__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="yodaModel.FK__TaxonomyL__L2_Id__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="yodaModel.FK__TaxonomyL__L3_Id__5DCAEF64" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
